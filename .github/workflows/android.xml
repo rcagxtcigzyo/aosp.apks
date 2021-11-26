@@ -1,0 +1,17 @@
+name: Andro
+
+on:
+  workflow_dispatch:
+jobs:
+  tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Android Builder
+        uses: b4s36t4/Android-Action@0.0.1
+      - name: Android Build
+        uses: vgaidarji/android-github-actions-build@v1.0.1
+      - name: Android Emulator
+        uses: vgaidarji/android-github-actions-emulator@v1.0.1
+      - name: Setup Android SDK Tools
+        uses: android-actions/setup-android@v2.0.2  
