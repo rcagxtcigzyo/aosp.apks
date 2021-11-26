@@ -1,6 +1,6 @@
 !aosp.calc.apk/
 !aosp.wwss.apk/
-
+!aosp.htmlveiw.apk/
 # Built application files
 #*.apk
 *.aar
