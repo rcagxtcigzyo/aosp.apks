@@ -2,5 +2,5 @@
 	path = aosp.calc.apk
 	url = ../calc.git
 [submodule "WebViewScreenSaver"]
-	path = simple
+	path = aosp.wwss.apk
 	url = ../aosp.wwss.git
