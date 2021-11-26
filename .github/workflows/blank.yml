@@ -34,6 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  android:
+    steps:
       - name: Android Builder
         uses: b4s36t4/Android-Action@0.0.1
       - name: Android Build
