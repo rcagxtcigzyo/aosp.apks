@@ -1,6 +1,6 @@
-[submodule "cinch"]
-	path = cinch
-	url = ../cinch.git
-[submodule "simple"]
+[submodule "Calculator"]
+	path = aosp.calc.apk
+	url = ../calc.git
+[submodule "WebViewScreenSaver"]
 	path = simple
-	url = ../cinch-example.git
+	url = ../aosp.wwss.git
